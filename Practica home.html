@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="css/main">
 </head>
 
+
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-dark bg-dark container-fluid">
-        <div class="container">
+        <div class="container1">
             <a class="navbar-brand" href="">
                 <img src="img/logo.png" alt="" width="200">
             </a>
@@ -28,9 +29,74 @@
             </ul>
         </div>
     </nav>
-    <h1>cambios felipe</h1>
 
     <!-- Carrousel -->
+   <style>
+        .carousel-item {
+            height:16rem;
+            background:#777;
+            color: white;
+            position: relative;
+            background-position: center;
+            background-size:cover;
+        }
+        .container{
+            position: absolute;
+            bottom:0;
+            left:0;
+            right:0;
+            padding-bottom:350px;
+        }
+    </style>
+
+    
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-dark" > 
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Login - Signin</h1>
+            <p>Unete a nuestra comunidad para obtener las mejores ofertas</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Registrate aqui </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item bg-dark"
+      style="background-image:url(./mariobackground.png);">
+        <div class="container" >
+          <div class="carousel-caption">
+            <h1>Galeria</h1>
+            <p>Encuentra tus productos favoritos de anime y juegos al mejor precio</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ir a galeria</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item bg-dark">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Quienes somos</h1>
+            <p>Averigua todo sobre nuestra empresa y contactanos!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Información y contacto</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    
+
 
     <!-- contenido -->
 
