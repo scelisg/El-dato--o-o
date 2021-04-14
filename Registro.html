@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container w-75 bg-light mt-5 rounded-3 shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg">
+                <div class="text-end">
+                    <img src="img/logo.png" width="100" alt="">
+                </div>
+                <div>
+                    <h2 class="fw-bold text-center pt-5 py-5">Registrate</h2>
+                    <!--login-->
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="name" class="form-control" name="name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Apellido</label>
+                            <input type="name" class="form-control" name="name">
+                        </div>
+                        <div>
+                            <h5>Tipo de cuenta</h5>
+                            <select name="tipe" id="tipe_account">
+                               <option value="1">Cliente</option> 
+                               <option value="2">Empresa</option> 
+                            </select>
+                        </div> <br>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" name="email">
+                        </div class="mb-4">
+                        <label for="contraseña" class="form-label">Contraseña</label>
+                        <input type="contraseña" class="form-control" name="contraseña"><br>
+                        <div class="d-grid mb-4">
+                            <button type="button" class="btn btn-primary">Registrarse</button>
+                        </div>
+                        <div>
+                            <span><a href="#">Volver al Home</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
